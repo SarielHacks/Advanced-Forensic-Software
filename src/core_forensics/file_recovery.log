@@ -1,0 +1,9 @@
+2025-03-09 20:57:48,388 - file_recovery_engine - INFO - File Recovery Engine initialized with output directory: recovered_files
+2025-03-09 20:57:48,388 - file_recovery_engine - INFO - Starting file carving on disk_image.dd
+2025-03-09 20:57:48,388 - file_recovery_engine - ERROR - Error during file carving: [Errno 2] No such file or directory: 'disk_image.dd'
+2025-03-10 09:41:49,144 - file_recovery_engine - INFO - File Recovery Engine initialized with output directory: recovered_files
+2025-03-10 09:41:49,144 - file_recovery_engine - INFO - Starting file carving on disk_image.dd
+2025-03-10 09:41:49,144 - file_recovery_engine - ERROR - Error during file carving: [Errno 2] No such file or directory: 'disk_image.dd'
+2025-03-12 12:24:31,962 - file_recovery_engine - INFO - File Recovery Engine initialized with output directory: recovered_files
+2025-03-12 12:24:31,962 - file_recovery_engine - INFO - Starting file carving on disk_image.dd
+2025-03-12 12:24:31,962 - file_recovery_engine - ERROR - Error during file carving: [Errno 2] No such file or directory: 'disk_image.dd'

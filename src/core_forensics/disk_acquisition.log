@@ -1,0 +1,16 @@
+2025-03-09 20:55:48,556 - INFO - Write blocker initialized
+2025-03-09 20:56:24,281 - INFO - Write blocker initialized
+2025-03-09 20:59:16,892 - INFO - Write blocker initialized
+2025-03-09 20:59:16,892 - INFO - Disk imager initialized with output directory: /forensics/images
+2025-03-09 20:59:16,892 - INFO - Disk Acquisition Manager initialized
+2025-03-09 20:59:16,904 - INFO - Write blocking enabled for device: /dev/sdb
+2025-03-09 20:59:16,916 - ERROR - Failed to extract metadata: invalid literal for int() with base 10: ''
+2025-03-09 20:59:16,916 - ERROR - Disk acquisition failed: Failed to extract metadata
+2025-03-09 20:59:16,917 - INFO - Write blocking disabled for device: /dev/sdb
+2025-03-12 12:23:30,878 - INFO - Write blocker initialized
+2025-03-12 12:23:30,879 - INFO - Disk imager initialized with output directory: /forensics/images
+2025-03-12 12:23:30,879 - INFO - Disk Acquisition Manager initialized
+2025-03-12 12:23:30,881 - INFO - Write blocking enabled for device: /dev/sdb
+2025-03-12 12:23:30,896 - ERROR - Failed to extract metadata: invalid literal for int() with base 10: ''
+2025-03-12 12:23:30,896 - ERROR - Disk acquisition failed: Failed to extract metadata
+2025-03-12 12:23:30,898 - INFO - Write blocking disabled for device: /dev/sdb
