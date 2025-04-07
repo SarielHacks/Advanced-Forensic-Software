@@ -1,0 +1,55 @@
+# Main configuration file for Automated Forensic Software
+
+# AI/ML Configuration
+ai_ml:
+  data_directory: "/home/sariel/Desktop/Automated_Forensics_Software/AI_ML/data"  # Directory for AI/ML datasets
+  logs_directory: "/home/sariel/Desktop/Automated_Forensics_Software/AI_ML/logs"  # Directory for AI/ML logs
+  model_directory: "/home/sariel/Desktop/Automated_Forensics_Software/AI_ML/models"  # Directory for trained AI/ML models
+  ai_analysis:  # Add this section
+    bert_model_path: "/home/sariel/Desktop/Automated_Forensics_Software/AI_ML/models/bert-forensic/"
+    min_confidence: 0.7  # Minimum confidence threshold for suspicious content
+    max_text_length: 512  # Max tokens for BERT analysis
+    suspicious_keywords: ["malware", "attack", "exploit", "unauthorized", "breach", "theft", "robbery", "murder"]
+  blockchain:
+    network_config: "/home/sariel/Desktop/Automated_Forensics_Software/BLOCKCHAIN/network-config.json"
+    config_path: "/home/sariel/Desktop/Automated_Forensics_Software/BLOCKCHAIN/network-config.json"
+    chaincode_directory: "/home/sariel/Desktop/Automated_Forensics_Software/BLOCKCHAIN/chaincode"
+    ipfs_storage_directory: "/ip4/127.0.0.1/tcp/5001"
+    logs_directory: "/home/sariel/Desktop/Automated_Forensics_Software/BLOCKCHAIN/logs"
+  
+  
+ai_analysis:  # Add this section
+  bert_model_path: "/home/sariel/Desktop/Automated_Forensics_Software/AI_ML/models/bert-forensic/"
+  min_confidence: 0.7  # Minimum confidence threshold for suspicious content
+  max_text_length: 512  # Max tokens for BERT analysis
+  suspicious_keywords: ["malware", "attack", "exploit", "unauthorized", "breach", "theft", "robbery", "murder"]
+
+# Blockchain Configuration
+blockchain:
+  network_config: "/home/sariel/Desktop/Automated_Forensics_Software/BLOCKCHAIN/network-config.json"
+  config_path: "/home/sariel/Desktop/Automated_Forensics_Software/BLOCKCHAIN/network-config.json"
+  chaincode_directory: "/home/sariel/Desktop/Automated_Forensics_Software/BLOCKCHAIN/chaincode"
+  ipfs_storage_directory: "/ip4/127.0.0.1/tcp/5001"
+  logs_directory: "/home/sariel/Desktop/Automated_Forensics_Software/BLOCKCHAIN/logs"
+
+# Core Forensics Configuration
+core_forensics:
+  root_path: "/home/sariel/Desktop/Automated_Forensics_Software/CORE_FORENSICS"  # Root directory for Core Forensics
+  evidence_directory: "/home/sariel/Desktop/Automated_Forensics_Software/CORE_FORENSICS/evidence"
+  audit_logs_directory: "/home/sariel/Desktop/Automated_Forensics_Software/CORE_FORENSICS/audit_logs"  # Directory for audit logs
+  error_log_directory: "/home/sariel/Desktop/Automated_Forensics_Software/CORE_FORENSICS/error_log"  # Directory for error logs
+  recovered_files_directory: "/home/sariel/Desktop/Automated_Forensics_Software/CORE_FORENSICS/recovered_files"
+  forensic_case_database: "/home/sariel/Desktop/Automated_Forensics_Software/CORE_FORENSICS/forensic_case_database.sqlite"  # Path to forensic case database
+
+# UI Configuration
+ui:
+  assets_directory: "/home/sariel/Desktop/Automated_Forensics_Software/UI/assets"  # Directory for UI assets (e.g., images, icons)
+  users_database: "/home/sariel/Desktop/Automated_Forensics_Software/UI/users.db"  # Path to users database
+  logs_directory: "/home/sariel/Desktop/Automated_Forensics_Software/UI/logs"  # Directory for UI logs
+
+# Global Configuration
+global:
+  logs_directory: "/home/sariel/Desktop/Automated_Forensics_Software/logs"  # Directory for global logs
+  data_directory: "/home/sariel/Desktop/Automated_Forensics_Software/data"  # Directory for global data
+  models_directory: "/home/sariel/Desktop/Automated_Forensics_Software/models"  # Directory for global models
+  reports_directory: "/home/sariel/Desktop/Automated_Forensics_Software/reports"
